@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row vh-100 justify-content-center align-items-center">
+        <div class="col-md-5 col-sm-6">
+          <div class="row justify-content-center">
+            <div class="col-xl-7 col-md-11 col-10">
+              <div class="card shadow-lg myCard">
+                <div class="card-body">
+                  <div class="position-relative itemContainer mb-4">
+                    <img
+                      class="img-fluid equilibrium shadow-sm"
+                      src="images/image-equilibrium.jpg"
+                      alt=""
+                    />
+                    <div
+                      class="position-absolute eyeIcon d-flex align-items-center justify-content-center"
+                    >
+                      <img src="images/icon-view.svg" alt="" />
+                    </div>
+                  </div>
+                  <a
+                    href="#"
+                    class="fw-bold fs-5 d-inline-block mb-2 text-white text-decoration-none linkItem"
+                    >Equilibrium #3429</a
+                  >
+                  <p class="text-secondary fw-light">
+                    Our Equilibrium collection promotes balance and calm.
+                  </p>
+                  <div class="d-flex justify-content-between">
+                    <small class="text-info d-flex gap-2 align-items-center">
+                      <img src="images/icon-ethereum.svg" alt="" />
+                      0.041 ETH
+                    </small>
+                    <small
+                      class="text-secondary d-flex gap-2 align-items-center"
+                    >
+                      <img src="images/icon-clock.svg" alt="" />3 days
+                      left</small
+                    >
+                  </div>
+                  <hr class="text-dark line" />
+                  <div class="d-flex align-items-center gap-3">
+                    <img
+                      src="images/image-avatar.png"
+                      class="creator rounded-pill"
+                      alt=""
+                    />
+                    <small class="text-secondary"
+                      >Creation of
+                      <a
+                        href="#"
+                        class="text-decoration-none text-white linkAuthor"
+                        >Jules Wyvern</a
+                      ></small
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="attribution text-white">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Qui3tK1D</a>.
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
